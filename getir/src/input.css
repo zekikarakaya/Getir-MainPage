@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flag-select button{
+    @apply h-14 border-2 border-gray-200 transition-colors hover:border-header-color bg-white rounded
+}
+.flag-select button span:nth-child(2){
+    @apply text-sm pl-8
+}
+.flag-select {
+    @apply pb-0
+}
+body{
+    overflow-x: hidden;
+}
+/* .slick-arrow{
+    @apply bg-btn-color hover:bg-btn-hover
+} */
+
